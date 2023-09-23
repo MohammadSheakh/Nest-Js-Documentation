@@ -1,0 +1,20 @@
+1. nest g controller users --no-spec  // do not generate spec file .. as we are not writting an unit test right now .. 
+ -> nest g controller Cats --no-spec
+2. req -> @Req() / @Request()
+   res -> @Res() / @Response()
+   next -> @Next()
+   req.session -> @Session()
+   req.params / req.params[key] -> @Param(key?: string)
+   req.body / req.body[key] -> @Body(key?: string)
+   req.query / req.query[key] -> @Query(key?: string)
+   req.headers / req.headers[name] -> @Headers(name?: string)
+   req.id  -> @Ip()
+   req.hosts  -> @HostParam()
+  
+3. Decorators for HTTP method : 
+
+    @Get(), @Post(), @Put(), @Delete, @Patch(), @Options() , @Head()
+    @All()
+
+4.  nest g controller Admin --no-spec
+

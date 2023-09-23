@@ -1,0 +1,7 @@
+////////////////////////// TypeORM Tutorial //////////////////////////
+1. Setup And Installation ------------> connection with database 
+2. Schema And Migration --------------> create entity and table 
+3. Repository Dependency Injection ---> utilizing dependency injection to inject entities to our 					                services
+4. Repository API --------------------> Typical CRUD Operation with custom query
+5. Relationships And Joins------------> between table ..
+///////////////////////////////////////////////////////////////////////

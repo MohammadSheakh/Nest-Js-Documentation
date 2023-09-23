@@ -1,0 +1,13 @@
+1. CLI thing : npm i -g @nestjs/cli
+2. nest new nest-crash-course  -- for creating new nest application 
+3. npm install @nestjs/common
+4. npm install @nestjs/core
+5. nest generate module users  -- for creating new module 
+6. clear 
+7. nest g controller users --no-spec  // do not generate spec file .. as we are not writting an unit test right now .. 
+8. nest g service users        -- g for generate
+9. npm run start:dev           -- to run the backend server ..
+
+10. npm i --save @nestjs/swagger swagger-ui-express
+11. npm i class-validator classk-transformer   -- for use Pipe ..  
+12. nest g resource todos => Rest API => Yes.. -- generate boiler plate .. 

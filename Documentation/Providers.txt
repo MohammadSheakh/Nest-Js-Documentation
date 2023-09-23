@@ -1,0 +1,1 @@
+1. nest g service cats --no-spec      -- g for generate
